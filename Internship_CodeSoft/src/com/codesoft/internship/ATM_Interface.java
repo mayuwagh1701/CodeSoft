@@ -100,9 +100,10 @@ public class ATM_Interface {
 		System.out.print("Enter your four Digit PIN: ");
 		int enteredPin = sc.nextInt();
 
-		BankAccount userAccount = new BankAccount(10000.0); // Initial balance
+		BankAccount userAccount = new BankAccount(10000.0);
 		ATM atm = new ATM(userAccount);
 		atm.run();
 	}
+	
 
 }
